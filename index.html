@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iakobi Iakobashvili | Junior Developer</title>
+    <meta
+        name="description"
+        content="Portfolio of Iakobi Iakobashvili, junior developer looking for a 12-month apprenticeship in web, app development and AI."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="background-blur blur-left"></div>
+    <div class="background-blur blur-right"></div>
+
+    <header class="header" id="header">
+        <div class="container nav">
+            <a href="#home" class="logo">My Portfolio</a>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text reveal">
+                    <div class="hero-badge">Available for apprenticeship</div>
+                    <h1 id="hero-name">Your Name</h1>
+                    <h2 id="hero-title">Junior Developer</h2>
+                    <p class="hero-description" id="hero-summary">
+                        Junior developer looking for a 12-month apprenticeship.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="cv.pdf" download class="btn btn-primary">
+                            <i class="fa-solid fa-download"></i>
+                            Download CV
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a id="linkedin-link" href="#" target="_blank" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a id="github-link" href="#" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image reveal">
+                    <div class="image-wrapper">
+                        <img src="profile.png" alt="Profile picture" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span class="eyebrow">About</span>
+                    <h2>Building clean digital experiences</h2>
+                    <p>A quick introduction</p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="card about-card reveal">
+                        <h3>Who I Am</h3>
+                        <p id="about-summary"></p>
+                    </article>
+
+                    <article class="card about-card reveal">
+                        <h3>What I’m Looking For</h3>
+                        <p id="about-goals"></p>
+                    </article>
+
+                    <article class="card about-card reveal">
+                        <h3>Hobbies & Interests</h3>
+                        <p id="about-interests"></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span class="eyebrow">Skills</span>
+                    <h2>Tech stack & tools</h2>
+                    <p>Technologies I use and explore</p>
+                </div>
+
+                <div class="skills-list" id="skills-list"></div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span class="eyebrow">Projects</span>
+                    <h2>Selected work</h2>
+                    <p>Browse my recent projects</p>
+                </div>
+
+                <div class="projects-wrapper reveal">
+                    <button class="projects-arrow left" id="projects-prev" aria-label="Previous project">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <div class="projects-track" id="projects-track">
+                <a href="project1.html" class="project-card card">
+                    <img src="project1.jpg" alt="Portfolio Website project" />
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Web</span>
+                            <span>Portfolio</span>
+                        </div>
+                        <h3>Portfolio Website</h3>
+                        <p>A modern responsive portfolio website built with HTML, CSS and JavaScript.</p>
+                        <span class="project-link-text">
+                            See details <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="project2.html" class="project-card card">
+                    <img src="project2.jpg" alt="Chrome Extension project" />
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Privacy</span>
+                            <span>Extension</span>
+                        </div>
+                        <h3>Web Browsing Analyser</h3>
+                        <p>A Chrome extension that analyzes browsing data, cookies and trackers.</p>
+                        <span class="project-link-text">
+                            See details <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="project3.html" class="project-card card">
+                    <img src="project3.jpg" alt="Personal Chatbot project" />
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Chatbot</span>
+                        </div>
+                        <h3>Personal Chatbot</h3>
+                        <p>A personal assistant chatbot project currently in progress and coming soon.</p>
+                        <span class="project-link-text">
+                            See details <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="project-card card locked-project">
+                    <div class="locked-project-image">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Locked</span>
+                            <span>Coming Soon</span>
+                        </div>
+                        <h3>Next Project</h3>
+                        <p>This project is not unlocked yet. A new project will be added soon.</p>
+                        <span class="project-link-text locked-text">
+                            Coming soon <i class="fa-solid fa-lock"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                    <button class="projects-arrow right" id="projects-next" aria-label="Next project">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span class="eyebrow">Contact</span>
+                    <h2>Let’s connect</h2>
+                    <p>Quick ways to reach me</p>
+                </div>
+
+                <div class="contact-box reveal">
+                    <a id="contact-email" class="contact-link card" href="mailto:test@email.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>test@email.com</span>
+                    </a>
+
+                    <a id="contact-linkedin" class="contact-link card" href="#" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>My LinkedIn</span>
+                    </a>
+
+                    <a
+                        id="contact-location"
+                        class="contact-link card"
+                        href="https://www.google.com/maps/place/Fontaine-le-Comte,+France"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Fontaine-le-Comte</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a id="footer-email" href="mailto:test@email.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a id="footer-linkedin" href="#" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a id="footer-github" href="#" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+            <p id="footer-text">© 2026 Portfolio - Junior Developer Portfolio</p>
+        </div>
+    </footer>
+
+    <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Open chatbot">
+        <i class="fa-solid fa-comments"></i>
+    </button>
+
+    <div class="chatbot-window" id="chatbot-window">
+        <div class="chatbot-header">
+            <h3>Portfolio Assistant</h3>
+            <button class="chatbot-close" id="chatbot-close" aria-label="Close chatbot">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="chatbot-body" id="chatbot-body">
+            <div class="bot-message">
+                <p>Hi! I can help you quickly learn more about Iakobi. Ask me anything about his profile, projects, skills, or apprenticeship search.</p>
+            </div>
+
+            <div class="bot-message">
+                <p>Try questions like:</p>
+                <ul>
+                    <li>What skills does he have?</li>
+                    <li>Is he looking for an apprenticeship?</li>
+                    <li>What projects did he build?</li>
+                    <li>How can I contact him?</li>
+                </ul>
+            </div>
+        </div>
+
+        <form class="chatbot-input-area" id="chatbot-form">
+            <input
+                type="text"
+                id="chatbot-input"
+                placeholder="Ask a question..."
+                autocomplete="off"
+            />
+            <button type="submit" aria-label="Send message">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
